@@ -8,7 +8,7 @@ Splash-Weld is a proposal-stage project for the PolarFire FPGA Design Contest 20
 
 DynamicDuo
 
-- [@linggaaradhanas22](https://github.com/linggaaradhanas22)
+- Lingga Aradhana Sahadewa
 - Arif Firman Fadhilah
 
 ## Planned system
