@@ -4,6 +4,13 @@ Ultrasonic weld inspection using PolarFire Splash for full-matrix-capture (FMC) 
 
 Splash-Weld is a proposal-stage project for the PolarFire FPGA Design Contest 2026. The initial scope is one documented 9% Ni steel girth-weld specimen and one 32-element, 5 MHz probe. The project aims to reduce false calls while preserving planar-defect detection.
 
+## Team
+
+DynamicDuo
+
+- [@linggaaradhanas22](https://github.com/linggaaradhanas22)
+- Arif Firman Fadhilah
+
 ## Planned system
 
 An external pulser/receiver and digitizer will capture raw ultrasonic channels. An FMC LPC adapter will connect the digitizer to Splash's J17 connector. The FPGA will align channels, buffer FMC frames in DDR4, reconstruct TFM images and apply phase-coherence weighting. Images and indications will stream to a host over PCIe or Gigabit Ethernet. A soft RISC-V core will provide control and status.
