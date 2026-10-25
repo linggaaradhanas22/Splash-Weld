@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="Splash-Weld" id="splash-weld">
+    <mxGraphModel dx="1400" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="930" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="2" value="Splash-Weld: real-time FMC → TFM/PCI for 9% Ni girth welds" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#111111;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="900" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="640" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="PolarFire Splash: MPF300T" style="text;html=1;align=left;verticalAlign=middle;fontSize=15;fontStyle=1;fontColor=#2e6b3a;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="360" height="25" as="geometry" />
+        </mxCell>
+
+        <mxCell id="5" value="32-element&#xa;5 MHz phased-array probe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Pulser/receiver +&#xa;32-ch AFE/ADC&#xa;50 MSps, 12-bit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="FMC LPC adapter&#xa;J17 · 34 differential pairs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="220" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="8" value="FMC capture /&#xa;channel alignment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="DDR4 FMC frame buffer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="TFM engine&#xa;delay tables · interpolation · DAS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Phase-coherence (PCI) weighting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Detection / peak / metrics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="PCIe x4  or  1 GbE output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="650" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Soft RISC-V&#xa;control &amp; status" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="740" y="420" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="15" value="Host PC&#xa;display · storage&#xa;GPU/CPU TFM baseline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="180" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="NDT operator&#xa;image + defect calls + confidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="360" width="260" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="32-ch FMC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;labelBackgroundColor=#ffffff;fontSize=10;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="485" />
+              <mxPoint x="320" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;" edge="1" parent="1" source="12" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="processed frames / detections" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;labelBackgroundColor=#ffffff;fontSize=10;" edge="1" parent="1" source="13" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="680" />
+              <mxPoint x="1020" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.5;" edge="1" parent="1" source="15" target="16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="control / status" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=1.3;dashed=1;strokeColor=#666666;labelBackgroundColor=#ffffff;fontSize=9;" edge="1" parent="1" source="14" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="470" />
+              <mxPoint x="720" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="28" value="Legend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;verticalAlign=top;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="730" width="700" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="28">
+          <mxGeometry x="10" y="30" width="30" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="Acquisition / interface" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="28">
+          <mxGeometry x="50" y="28" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="" style="rounded=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="28">
+          <mxGeometry x="10" y="54" width="30" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="Processing / buffering" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="28">
+          <mxGeometry x="50" y="52" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="" style="rounded=0;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="28">
+          <mxGeometry x="10" y="78" width="30" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="Control" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="28">
+          <mxGeometry x="50" y="76" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="" style="rounded=0;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="28">
+          <mxGeometry x="10" y="102" width="30" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="Output" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="28">
+          <mxGeometry x="50" y="100" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="28">
+          <mxGeometry x="250" y="30" width="30" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="External equipment" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="28">
+          <mxGeometry x="290" y="28" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="" style="rounded=0;html=1;fillColor=#333333;strokeColor=#333333;" vertex="1" parent="28">
+          <mxGeometry x="250" y="56" width="30" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="Data path" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="28">
+          <mxGeometry x="290" y="48" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="" style="rounded=0;html=1;fillColor=none;strokeColor=#666666;dashed=1;" vertex="1" parent="28">
+          <mxGeometry x="250" y="80" width="30" height="2" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="Control / status" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" vertex="1" parent="28">
+          <mxGeometry x="290" y="72" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="FMC = full matrix capture · TFM = total focusing method · PCI = phase coherence imaging" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="40" y="890" width="900" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
